@@ -24,9 +24,9 @@
 
 //   return (
 //     <div className="w-full sm:px-4 mx-auto pt-6"> 
-//       <span className='text-2xl font-medium text-visal-white'>Fotografie</span>
+//       <span className='text-2xl font-medium text-zinc-white'>Fotografie</span>
 //       {hasImages ? (
-//         <ScrollArea className="whitespace-nowrap bg-visal-200/20 backdrop-blur-sm rounded-md border border-visal-bg2/80 shadow-inner mt-2">
+//         <ScrollArea className="whitespace-nowrap bg-zinc-200/20 backdrop-blur-sm rounded-md border border-zinc-bg2/80 shadow-inner mt-2">
 //           <div className="flex p-4">
 //             {isLoading ? (
 //               <SkeletonAnnounceCarousel/>
@@ -35,7 +35,7 @@
 //                 <Dialog key={index}>
 //                   <DialogTrigger asChild>
 //                     <figure className="shrink-0">
-//                       <div className="overflow-hidden border shadow-2xl border-visal-50/50 rounded-md mr-4">
+//                       <div className="overflow-hidden border shadow-2xl border-zinc-50/50 rounded-md mr-4">
 //                         <div className="relative shadow-lg">
 //                           <Image 
 //                             src={image} 
@@ -53,7 +53,7 @@
 //                       </div>
 //                     </figure>
 //                   </DialogTrigger>
-//                   <DialogContent className="grid-rows-carousel text-visal-txt bg-visal-bg2/90 backdrop-blur-2xl h-[90%] max-w-[85%] p-2 ">
+//                   <DialogContent className="grid-rows-carousel text-zinc-txt bg-zinc-bg2/90 backdrop-blur-2xl h-[90%] max-w-[85%] p-2 ">
 //                     <DialogHeader className="mx-auto h-12">
 //                       <span className="text-2xl font-light my-auto">{selectedImageIndex+1}/{fetchedImages.length}</span>
 //                     </DialogHeader>
